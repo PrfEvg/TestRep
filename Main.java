@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main{
     public static void main(String... args){
         System.out.println("Hello world!!!!");
@@ -7,5 +9,6 @@ public class Main{
             s[i] = i;
             System.out.println(i);
         }
+        List<String> list = new ArrayList<>();
     }
 }
