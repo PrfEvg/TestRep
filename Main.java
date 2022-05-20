@@ -10,5 +10,8 @@ public class Main{
             System.out.println(i);
         }
         List<String> list = new ArrayList<>();
+        for (String a : list) {
+            System.out.println(a);
+        }
     }
 }
